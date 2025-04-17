@@ -25,9 +25,9 @@ x_{norm} = \frac{x - x_{min}}{x_{max}- x_{min}}
 
 Fórmula:
 
-\[
+$$
 x_{est} = \frac{x - \mu}{\sigma}
-\]
+$$
 
 ---
 
