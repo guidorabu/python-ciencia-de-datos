@@ -15,9 +15,9 @@ El One-Hot Encoding generaría una matriz:
 
 Rojo        Verde       Azul
 ---
- [1, 0, 0] \n
- [0, 1, 0] \n
- [0, 0, 1] \n
+ [1, 0, 0] 
+ [0, 1, 0]
+ [0, 0, 1] 
  ## ¿Tiene límites el One-Hot Encoding?
 
  En teoría:
