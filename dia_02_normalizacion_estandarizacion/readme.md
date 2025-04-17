@@ -21,7 +21,7 @@ $$
 x_{norm} = \frac{x - x_{min}}{x_{max}- x_{min}}
 $$
 
---**Estandarización (Z-Score Scaling):** transforma los datos para que tengan una media 0 y una desviación estándar 1.
+- **Estandarización (Z-Score Scaling):** transforma los datos para que tengan una media 0 y una desviación estándar 1.
 
 Fórmula:
 
