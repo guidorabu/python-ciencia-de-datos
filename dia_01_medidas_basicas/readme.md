@@ -23,6 +23,7 @@ $$
 $$
 
 - **Mediana**
+
 Si *n* es impar: 
 
 $$
@@ -43,7 +44,7 @@ $$
 
 ---
 
-### Medidas de Disperción
+### Medidas de Dispersión
 
 --- 
 
@@ -67,7 +68,8 @@ Poblacional:
 
 $$
 \sigma = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2}
-$$  
+$$
+
 Muestral: 
 
 $$
