@@ -19,13 +19,20 @@
 - **Media**
 
 $$
-bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
+\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
 $$
 
 - **Mediana**
+Si *n* es impar: 
 
 $$
-Mediana = x_{\left(\frac{n+1}{2}\right)}
+\text{Mediana} = x_{\left(\frac{n+1}{2}\right)}
+$$
+
+Si *n* es par:  
+
+$$
+\text{Mediana} = \frac{x_{\left(\frac{n}{2}\right)} + x_{\left(\frac{n}{2}+1\right)}}{2}
 $$
 
 - **Moda**
@@ -42,20 +49,35 @@ $$
 
 - **Varianza**
 
-$$
+Poblacional:
 
+$$
+\sigma^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2
+$$  
+
+Muestral:  
+
+$$
+s^2 = \frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2
 $$
 
 - **Desvio estandar**
 
-$$
+Poblacional:  
 
+$$
+\sigma = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2}
+$$  
+Muestral: 
+
+$$
+s = \sqrt{\frac{1}{n - 1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
 $$
 
 - **Rango**
 
 $$
-
+\text{Rango} = x_{\text{máx}} - x_{\text{mín}}
 $$
 
 ---
