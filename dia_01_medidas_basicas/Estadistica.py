@@ -31,7 +31,7 @@ class Estadistica:
                 frecuencia[valor] += 1
             else:
                 frecuencia[valor] = 1
-        max_freq = max(frecuencia.values)
+        max_freq = max(frecuencia.values())
         modas = [x for x, v in frecuencia.items() if v == max_freq]
         return modas if len(modas) > 1 else modas[0]
     
